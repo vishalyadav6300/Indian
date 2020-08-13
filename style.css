@@ -1,0 +1,95 @@
+header
+{
+	text-align: center;
+	margin: .5%;
+	padding: 7%;
+	border-radius: 25px;
+	background-color: #F7664A;
+	background-image: url('https://image.freepik.com/free-vector/indian-flag-made-with-lights-background_1017-20002.jpg');
+}	
+body
+{
+	margin: 1%;
+	padding: 1%;
+	font-size: 110%;
+	font-family: serif;
+	color: red;
+	background-color: #000000;
+}
+h2{
+	color: #00FF7F;
+}
+img{
+	border-radius: 25px;
+	margin: .5%;
+	height: auto;
+}
+nav a
+{
+	display: inline-block;
+	width:20%;
+	padding: 1%;
+	margin: 1%;
+    border-radius: 25px;
+    color: #000000;
+    border:1px solid #FFFFFF;
+    text-decoration: none;
+}
+nav a:hover{
+	background-color: #FF4500;
+}
+#sj
+{
+	margin-right:45%; 
+}
+.active{
+	background-color: #32CD32;
+}
+.desc{
+	display: inline-block;
+	width: 20%;
+	margin: .5%;
+}
+.vis{
+	display: inline-block;
+	width: 75%;
+	float: right;
+}
+footer p{
+	text-align: center;
+	color: #FFFFFF;
+}
+.hamburger{
+	display: none;
+}
+@media screen and (max-width: 880px) {
+   nav a 
+   {
+      display: none;
+   }
+   header
+   {
+     padding: 12%;
+   }
+   img,.desc{
+   	display: none;
+   }
+   .vis{
+   	width: 100%;
+   }
+nav a.hamburger {
+   float: left;
+   display: inline-block;
+}
+nav.openNav a.hamburger {
+   position: relative;
+}
+nav.openNav a {
+   float: none;
+   display: block;
+}
+}
+nav.openNav{
+   display: block;
+   width: 150%;
+}
